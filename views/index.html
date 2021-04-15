@@ -9,14 +9,14 @@
    </head>
 
    <body>
-      <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
+       <h2>API Project: File Metadata Microservice</h2>
 
-        <h3>Usage:</h3>
-        <p>
-          Please Upload a File ...
-        </p>
+      <div class="container">
+        
         <div class="view">
+          <p id="subtitle1">
+          Please Upload a File ...
+          </p>
           <h4 id="output"></h4>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
             <input id="inputfield" type="file" name="upfile">
@@ -24,11 +24,19 @@
           </form>
         </div>
       </div>
+      </div>
+        <p class="mt-5" id="footnote">Developed in JavaScript and d3 by <span style="color:yellow;font-weight:bold">Grayman1</span></p>
+        <p id="credit" >Part of FCC APIs and Microservices Projects</p>
+      </div>  
+
+
+<!--
+
       <div class="footer">
         <p>
           by 
           <a href="http://www.freecodecamp.com">freeCodeCamp</a>
         </p>
-      </div>
+      </div>  -->
    </body>
 </html>

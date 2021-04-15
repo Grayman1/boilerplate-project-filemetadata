@@ -1,20 +1,28 @@
 /****** Main Styling ******/
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(232,243,248,1) 0%, rgba(167,189,232,1) 90% );
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #222;
-  background-color: #ECF0F1;
+//  background-color: #ECF0F1;
   text-align: center;
 }
 
 .container {
   padding: 0;
-  margin-top: 40px;
+  margin-top: 30px;
 }
-
+/*
 .footer {
   margin-top: 60px;
+}
+*/
+
+#subtitle1 {
+  font-size: 15px;
+  font-weight: bold;
+
 }
 
 a {
@@ -34,9 +42,33 @@ input#button {
 .view {
   position:relative;
   margin: auto;
-  margin-top: 40px;
-  border: 1px  solid  #aaa;
-  padding: 20px;
+  margin-top: 10px;
+ // border: 3px  solid  #aaa;
+  border: 5px outset #B1B5B5;
+  border-radius: 10px;
+  background-color: #85B4E6; //#F0F8FF;
+  box-shadow: 0.4rem 0.4rem 0.5rem black;
+  padding: 10px;
   width: 60%;
   min-width: 400px;
+}
+
+#footnote {
+  
+  text-align: center;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+#credit {
+  text-align: center;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 1px;
+  font-size: 12px;
+  margin-top: -5px;
 }
